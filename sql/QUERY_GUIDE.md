@@ -9,7 +9,7 @@ This guide explains every query in `02_analysis_queries.sql`: what it does, how 
 
 > **Why averages, not medians?** MySQL has no built-in `MEDIAN()`. The SQL uses `AVG()`, so its numbers are a bit higher than the medians in the Python notebook. A few very expensive areas pull averages up. The *patterns* are identical.
 >
-> The expected results below come from testing the same queries in a SQLite copy of the data. MySQL should match them. The `NTILE` quintile boundaries could differ by a few rows where incomes tie.
+> **Verified in MySQL 8.0 (Workbench):** all queries run without errors, and the results below match what MySQL returns.
 
 ---
 
