@@ -1,0 +1,12 @@
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.vscode/
+
+# Large model files (GitHub blocks files over 100 MB)
+*.pkl
+
+# OS
+Thumbs.db
+.DS_Store
